@@ -1,0 +1,241 @@
+header, nav, main, footer {display:block;}
+
+*{box-sizing: border-box;}
+
+body {
+	background: #E6E6FA;
+	color: #4682B4;
+	font-family: verdana, arial, sans-serif;
+    line-height : 2em;
+    margin : 0;
+    padding : 0;
+}
+
+main{
+    background-color: #FAFAD2;
+	padding-left: 2em;	
+	padding-right: 2em;
+	margin-left: 160px;
+    padding-top: 1em;
+    padding-bottom: 2em;
+
+}
+
+header{
+	background-color: #B0E0E6;
+    color: #FFFFFF;
+    height: 150px;
+}
+
+h1{ 
+    font-size: 3em;
+	padding-top: 50px;
+	padding-left: 2em;
+    color: #FFFFFF;
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: 2em;
+	padding-top: 5px;
+    background-color: #B8860B;
+    color: #FFFFFF;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+h3{
+    font-family: sans-serif;
+    font-size: 1em;
+	padding-top: 25px;
+    color: #B8860B;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+#wrapper{
+    position : relative;
+	background-color: #B0E0E6;
+	min-width:960px;
+	max-width:1240px;
+    margin-left : auto;
+    margin-right : auto;
+}
+
+#content {
+margin-top : 0;
+margin-left : 11px;
+padding : 5px;
+}
+
+#content p{
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+/*main nav; I want it to float left, verticle, no list styles*/
+    .top_nav{
+	    float: left;
+        width: 160px;
+	    font-weight: bold;
+        background-color: #B0E0E6;
+	    padding: 1em;
+        }
+    .top_nav a{
+	   display: block;
+	   text-decoration: none;
+	   text-align: center;
+	   font-weight: bold;
+	   border: outset 3px  #C0C0C0;
+	   margin-bottom: 1em;
+	   padding: 1em;
+        }
+    .top_nav ul{
+	   list-style-type: none;
+	   padding-left: 0;
+        }
+    .top_nav nav a:link{ color: #4682B4;}
+    .top_nav nav a:visited{ color: #4682B4;}
+    .top_nav nav a:hover{ color: #4682B4; 
+	      border: 3px inset #C0C0C0;}
+/* end of main nav css*/
+
+/*footer*/
+.footer{
+    clear:both;
+    margin : 20px 0 0 0;
+    padding : 3px;
+    text-align: center;
+    font : .70em;
+    font-family:  verdana, arial, sans-serif;
+    font-style: italic;
+    background : #B0E0E6;
+    color : #B8860B;
+    display: inline-block;
+}
+.footer a:link, .footer a:visited { 
+    background : inherit;
+    color : #B8860B;
+}
+
+.footer a:hover {
+    background : inherit;
+    color : #B8860B;
+    text-decoration : none;
+}
+/*end of footer*/
+
+/*begin gallery on index css*/
+            .square_border{
+                border: double 2px  #C0C0C0;
+                }
+            .gallery ul{
+	               list-style-type: none;
+                }
+            .gallery li{
+	               display: inline-block;
+                }
+
+/*end of gallery css*/
+
+/*customer comments on index*/
+            .imgleft {
+                float: left;
+                border: 1px solid #C0C0C0;
+                padding: 6px;
+                margin-right: 10px;
+                }
+            .comments{
+                margin-bottom: 40px;
+                }
+
+/*end of comments css*/
+
+/*picture on contact page css*/
+            .imgright {
+                float: right;
+                border: 1px solid #C0C0C0;
+                padding: 3px;
+                margin-left: 15px;
+                }
+            .address{
+                margin-bottom: 90px;
+                }
+/*end of picture on contact page*/
+
+/*begin schedule table CSS on contact*/
+            .schedule table {
+                /*margin: auto;*/
+                border: 2px solid #C0C0C0;
+                width: 600px; 
+                border-spacing: 0;
+                color: #000;
+               }
+            .schedule td, th {
+                text-align: center;
+                padding: 5px;
+                border: 1px solid #C0C0C0;
+                }
+            .schedule tr:nth-of-type(odd) { 
+                background-color: #E6E6FA;
+                }
+            .schedule caption { 
+                font-family: Verdana, sans-serif;
+                font-weight: bold;
+                font-size: 1.2em;
+                padding-bottom: 0.5em; 
+                }
+/*end schedule table CSS*/
+
+/*begin form CSS on contact*/
+                label { 
+                    float: left;
+                    display: block;
+                    text-align: right;
+                    font-weight: bold;
+                    width: 10em;
+                    padding-right: 1em; 
+                    }
+                input { 
+                    display: block;
+                    margin-bottom: 2em; 
+                    }  
+                .mySubmit { 
+                    margin-left: 12em; 
+                    }
+                form { 
+                    padding: 3em; 
+                    }
+/*end form CSS*/
+
+
+/*begin of stock table in toys*/
+            .stock table { 
+                margin: auto;
+                border: 5px solid #C0C0C0;
+                width: 800px; 
+                border-spacing: 0;
+                color: #000;
+                }
+            .stock td, th {
+                padding: 0.5em;
+                border-style: none;
+                font-family: Arial, sans-serif;
+                }
+            .stock caption {
+                font-family: Verdana, sans-serif;
+                font-weight: bold;
+                font-size: 1.2em;
+                padding-bottom: 0.5em;
+                }
+            .stock tr:nth-of-type(even) { 
+                background-color: #E6E6FA;
+                color: #000;
+                }
+            .stock tr:first-of-type { 
+                background-color: #B0C4DE; 
+                }
+            .price_size{
+                text-align: center;
+                }
+/*end of stock table*/
